@@ -33,7 +33,7 @@ class App extends Component {
             <hr className="m-0"/>
             <Education education={this.state.education}/>
             <hr className="m-0"/>
-            <Skills skills={this.state.skills}/>
+            <Skills skills={this.state.skills} pluralsight={this.state.landingData.pluralsight}/>
             <hr className="m-0"/>
             <Projects projects={this.state.projects}/>
             <hr className="m-0"/>

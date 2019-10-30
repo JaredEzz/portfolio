@@ -6,12 +6,12 @@
 		"bio1": "I'm a software engineer working on back-end services, object-oriented programming, cross-platform frameworks and distributed systems.",
 		"bio2": "I currently work at Simplifile as a back-end developer, study CS with an emphasis in Software Engineering at Brigham Young University, and I build applications in Flutter and contribute to open source projects when I feel like coding in my spare time.",
 		"bio3": "Other than that, I love to follow the latest news in big tech, read, play piano, am an active member of my local religious group, and I enjoy spending time cooking and watching Netflix with my wife.",
-    "email": "jaredezzethasson@gmail.com",
-    "linkedin": "https://linkedin.com/in/jaredhasson",
-	"github": "https://github.com/JaredEzz",
-	"pluralsight": "https://app.pluralsight.com/profile/jared-hasson",
-	"facebook": "https://www.facebook.com/jaredezzethasson",
-	"twitter": "https://twitter.com/JaredEzz"
+		"email": "jaredezzethasson@gmail.com",
+		"linkedin": "https://linkedin.com/in/jaredhasson",
+		"github": "https://github.com/JaredEzz",
+		"pluralsight": "https://app.pluralsight.com/profile/jared-hasson",
+		"facebook": "https://www.facebook.com/jaredezzethasson",
+		"twitter": "https://twitter.com/JaredEzz"
 	},
 	"experience": [
 		{
@@ -59,29 +59,48 @@
 	],
 	"skills": [
 		{
-			"name": "Java"
+			"name": "java.png"
 		},
 		{
-			"name": "C/C++"
+			"name": "git.png"
 		},
 		{
-			"name": "Python"
+			"name": "cpp.png"
 		},
 		{
-			"name": "HTML5"
+			"name": "js.png"
 		},
 		{
-			"name": "Javascript/ES6"
+			"name": "android.png"
 		},
 		{
-			"name": "React"
+			"name": "angular.png"
 		},
 		{
-			"name": "Angular"
+			"name": "react.png"
 		},
 		{
-			"name": "Flutter"
+			"name": "css.png"
+		},
+		{
+			"name": "es6.png"
+		},
+		{
+			"name": "html5.png"
+		},
+		{
+			"name": "java_programming_paradigms.png"
+		},
+		{
+			"name": "npm.png"
+		},
+		{
+			"name": "rxjs.png"
+		},
+		{
+			"name": "typescript.png"
 		}
+
 	],
 	"interests": {
 		"paragraphOne": "Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Utah, I enjoy hiking, camping, and swimming.",

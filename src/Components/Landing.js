@@ -46,7 +46,7 @@ class Landing extends Component {
                             smooth={true}
                         >
                             {/*<a href="#experience">*/}
-                                <FontAwesomeIcon icon={faAngleDown}/>
+                            <FontAwesomeIcon icon={faAngleDown}/>
                             {/*</a>*/}
                         </Link>
                     </div>
