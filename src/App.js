@@ -7,6 +7,7 @@ import Education from "./Components/Education";
 import Skills from "./Components/Skills";
 import Interests from "./Components/Interests";
 import Awards from "./Components/Awards";
+import Projects from "./Components/Projects";
 
 class App extends Component {
   constructor(props) {
@@ -33,6 +34,8 @@ class App extends Component {
             <Education education={this.state.education}/>
             <hr className="m-0"/>
             <Skills skills={this.state.skills}/>
+            <hr className="m-0"/>
+            <Projects projects={this.state.projects}/>
             <hr className="m-0"/>
             <Interests interests={this.state.interests}/>
             <hr className="m-0"/>
