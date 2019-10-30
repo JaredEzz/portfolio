@@ -5,7 +5,7 @@ import {faFacebook, faGithub, faLinkedin, faTwitter} from "@fortawesome/free-bra
 class Landing extends Component {
     constructor(props){
         super(props);
-        this.landingDate = props.landingData;
+        this.landingData = props.landingData;
     }
     render() {
         return (
@@ -17,7 +17,7 @@ class Landing extends Component {
                     <div className="subheading mb-5">{this.landingData.phoneNumber} ·
                         <a href={"mailto:" + this.landingData.email}>{this.landingData.email}</a>
                     </div>
-                    <p className="lead mb-5">{this.landingData.bio}</p>
+                    <p className="lead mb-5">{this.landingData.bio1}</p>
                     <div className="social-icons">
                         <a href={this.landingData.linkedin}>
                             <FontAwesomeIcon icon={faLinkedin} />
