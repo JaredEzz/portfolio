@@ -6,7 +6,6 @@ import { faCheckCircle } from "@fortawesome/free-solid-svg-icons";
 class Skills extends Component {
     constructor(props) {
         super(props);
-
         this.skills = props.skills;
     }
 
@@ -16,18 +15,18 @@ class Skills extends Component {
                 <div className="w-100">
                     <h2 className="mb-5">Skills</h2>
                     <div className="subheading mb-3">Programming Languages &amp; Tools</div>
-                    {/*<div className="row">*/}
-                    {/*    {*/}
-                    {/*        this.skills.map((data, index) => (*/}
-                    {/*            <div key={index} className="col-6">*/}
-                    {/*                <p className="list-item">*/}
-                    {/*                    <FontAwesomeIcon icon={faCheckCircle} color="green" />*/}
-                    {/*                    <span className="ml-3">{data.name}</span>*/}
-                    {/*                </p>*/}
-                    {/*            </div>*/}
-                    {/*        ))*/}
-                    {/*    }*/}
-                    {/*</div>*/}
+                    <div className="row">
+                        {
+                            this.skills.map((data, index) => (
+                                <div key={index} className="col-6">
+                                    <p className="list-item">
+                                        <FontAwesomeIcon icon={faCheckCircle} color="green" />
+                                        <span className="ml-3">{data.name}</span>
+                                    </p>
+                                </div>
+                            ))
+                        }
+                    </div>
                 </div>
             </section>
         );

@@ -1,8 +1,8 @@
 {
 	"landing": {
-		"firstName": "Jared",
+		"firstName": "Jared  ",
 		"lastName": "Hasson",
-		"phoneNumber": "385-439-1231",
+		"phoneNumber": "385-439-1231   ",
 		"bio1": "I'm a software engineer excited about back-end services, object-oriented programming, cross-platform frameworks and distributed systems.",
 		"bio2": "I currently work at Simplifile as a back-end developer, study CS with an emphasis in Software Engineering at Brigham Young University, and I build applications in Flutter and contribute to open source projects when I feel like coding in my spare time.",
 		"bio3": "Other than that, I love to follow the latest news in big tech, read, play piano, am an active member of my local religious group, and I enjoy spending time cooking and watching Netflix with my wife.",
@@ -36,37 +36,44 @@
 			"toDate": "January 2019"
 		}
 	],
-	"education": [{
-			"university": "Indian Institute of Information Technology Allahabad",
-			"degree": "Bachelor of Technology",
-			"gpa": "12.34",
-			"fromDate": "August 2016",
+	"education": [
+		{
+			"university": "Brigham Young University ",
+			"degree": "Bachelor of Computer Science: Emphasis in Software Engineering",
+			"fromDate": "June 2015",
 			"toDate": "Present"
+		},
+		{
+			"university": "Utah Valley University",
+			"degree": "Associate of Science",
+			"fromDate": "August 2013",
+			"toDate": "June 2015"
 		}
 	],
-	"skills": [{
-			"name": "HTML5"
+	"skills": [
+		{
+			"name": "Java"
 		},
 		{
-			"name": "CSS3"
-		},
-		{
-			"name": "Javascript"
-		},
-		{
-			"name": "React"
-		},
-		{
-			"name": "Nodejs"
+			"name": "C/C++"
 		},
 		{
 			"name": "Python"
 		},
 		{
-			"name": "Django"
+			"name": "HTML5"
 		},
 		{
-			"name": "Ember"
+			"name": "Javascript/ES6"
+		},
+		{
+			"name": "React"
+		},
+		{
+			"name": "Angular"
+		},
+		{
+			"name": "Flutter"
 		}
 	],
 	"interests": {
