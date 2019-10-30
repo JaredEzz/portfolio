@@ -51,31 +51,24 @@ class Skills extends Component {
                            <img className="img-fluid" src={pluralsightImage} width={200} alt="Pluralsight Icon"/>
                        </a>
                     </div>
-                    <br/>
-                    <ul className="skill-iq">
+                    <div className="card-deck">
                         {
                             this.skills1.map((data, index) => (
-                                <li key={index}>
-                                    <a href={this.pluralsight}>
-                                        <img className="img-fluid" src={data} width={180} alt="skill iq"/>
-                                    </a>
-                                </li>
+                                <div className="card">
+                                    <img src={data} className="card-img-top" alt={"image"+ index}/>
+                                </div>
                             ))
                         }
-                    </ul>
-                    <br/>
-                    <br/>
-                    <ul className="skill-iq">
+                    </div>
+                    <div className="card-deck">
                         {
                             this.skills2.map((data, index) => (
-                                <li key={index}>
-                                    <a href={this.pluralsight}>
-                                        <img className="img-fluid" src={data} width={180} alt="skill iq"/>
-                                    </a>
-                                </li>
+                                <div className="card">
+                                    <img src={data} className="card-img-top" alt={"image"+ index}/>
+                                </div>
                             ))
                         }
-                    </ul>
+                    </div>
                 </div>
             </section>
         );
