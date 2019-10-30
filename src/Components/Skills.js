@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCheckCircle } from "@fortawesome/free-solid-svg-icons";
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faCheckCircle } from "@fortawesome/free-solid-svg-icons";
 import pluralsightImage from '../Assets/PS_logo_F-04.png';
 import android from '../Assets/skill_iqs/android.png';
 import java from '../Assets/skill_iqs/java.png';
 import angular from '../Assets/skill_iqs/angular.png';
 import cpp from '../Assets/skill_iqs/cpp.png';
-import css from '../Assets/skill_iqs/css.png';
-import es6 from '../Assets/skill_iqs/es6.png';
-import html5 from '../Assets/skill_iqs/html5.png';
+// import css from '../Assets/skill_iqs/css.png';
+// import es6 from '../Assets/skill_iqs/es6.png';
+// import html5 from '../Assets/skill_iqs/html5.png';
 import java_programming_paradigms from '../Assets/skill_iqs/java_programming_paradigms.png';
 import js from '../Assets/skill_iqs/js.png';
 import npm from '../Assets/skill_iqs/npm.png';
@@ -52,7 +52,7 @@ class Skills extends Component {
                        </a>
                     </div>
                     <br/>
-                    <ul>
+                    <ul className="skill-iq">
                         {
                             this.skills1.map((data, index) => (
                                 <li key={index}>
@@ -65,7 +65,7 @@ class Skills extends Component {
                     </ul>
                     <br/>
                     <br/>
-                    <ul>
+                    <ul className="skill-iq">
                         {
                             this.skills2.map((data, index) => (
                                 <li key={index}>
