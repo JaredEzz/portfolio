@@ -15,31 +15,38 @@
 	},
 	"experience": [
 		{
-				"position": "GitHub Campus Expert",
-				"organization": "GitHub",
-				"aboutWork": "Responsible for building the on campus community with the support of GitHub.",
-				"fromDate": "August 2018",
+				"position": "Software Engineer Intern",
+				"organization": "Simplifile",
+				"aboutWork": "Full-time member of team overseeing our Lender product. Build & maintain business logic, databases, APIs and other back-end components.",
+				"fromDate": "January 2019",
 				"toDate": "Present"
 		},
 		{
-			"position": "Opensource Developer Intern",
-			"organization": "Fossasia",
-			"aboutWork": "Contributing to Fossasia's open event server and frontend as an intern. Resolved numerous bugs and added new features to the eventyay platform.",
-			"fromDate": "June 2019",
-			"toDate": "Present"
+			"position": "Software Business Analyst",
+			"organization": "Simplifile",
+			"aboutWork": "Assisted project managers with analyzing performance reports, responded to customer feature requests and bug reports, worked with development team to define enhancements.",
+			"fromDate": "March 2018",
+			"toDate": "January 2019"
+		},
+		{
+			"position": "Full-time Missionary",
+			"organization": "The Church of Jesus Christ of Latter-day Saints",
+			"aboutWork": "My time as a missionary was spent serving individuals and families, teaching them about the restored gospel of Jesus Christ, and helping them make changes to improve their quality of life.",
+			"fromDate": "March 2016",
+			"toDate": "March 2018"
 		},
 		{
 			"position": "Software Developer Intern",
-			"organization": "Hasura",
-			"aboutWork": "Worked on Hasura's GraphQL engine and added new features in it.",
-			"fromDate": "December 2018",
-			"toDate": "January 2019"
+			"organization": "Simplifile",
+			"aboutWork": "Onboarded new customers for new Collaboration & Post Closing product and provided customer support.",
+			"fromDate": "May 2015",
+			"toDate": "February 2016"
 		}
 	],
 	"education": [
 		{
 			"university": "Brigham Young University ",
-			"degree": "Bachelor of Computer Science: Emphasis in Software Engineering",
+			"degree": "Bachelor of Computer Science, Emphasis in Software Engineering",
 			"fromDate": "June 2015",
 			"toDate": "Present"
 		},
