@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
-import image from '../Assets/profile.png'
+import image from '../Assets/profile.png';
+import { Link } from "react-scroll";
+
 
 class Sidebar extends Component {
     constructor(props){
@@ -22,19 +24,19 @@ class Sidebar extends Component {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <a className="nav-link js-scroll-trigger" href="#about">About</a>
+                            <Link className="nav-link" to="about" smooth={true}>About</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link js-scroll-trigger" href="#experience">Experience</a>
+                            <Link className="nav-link" to="experience" smooth={true}>Experience</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link js-scroll-trigger" href="#education">Education</a>
+                            <Link className="nav-link" to="education" smooth={true}>Education</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link js-scroll-trigger" href="#skills">Skills</a>
+                            <Link className="nav-link" to="skills" smooth={true}>Skills</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link js-scroll-trigger" href="#projects">Projects</a>
+                            <Link className="nav-link" to="projects" smooth={true}>Projects</Link>
                         </li>
                         {/*<li className="nav-item">*/}
                         {/*    <a className="nav-link js-scroll-trigger" href="#interests">Interests</a>*/}
