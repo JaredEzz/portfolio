@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faFacebook, faGithub, faLinkedin, faTwitter} from "@fortawesome/free-brands-svg-icons";
+import {faAngleDown} from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-scroll";
 
 class Landing extends Component {
     constructor(props){
@@ -31,6 +33,22 @@ class Landing extends Component {
                         <a href={this.landingData.facebook}>
                             <FontAwesomeIcon icon={faFacebook} />
                         </a>
+                    </div>
+                    <br/>
+                    <br/>
+                    <br/>
+                    {/*<br/>*/}
+                    <br/>
+                    {/*<br/>*/}
+                    <div className="scroll-button">
+                        <Link
+                            to="experience"
+                            smooth={true}
+                        >
+                            {/*<a href="#experience">*/}
+                                <FontAwesomeIcon icon={faAngleDown}/>
+                            {/*</a>*/}
+                        </Link>
                     </div>
                 </div>
             </section>
