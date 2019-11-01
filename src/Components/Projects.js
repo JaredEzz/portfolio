@@ -1,18 +1,4 @@
 import React, {Component} from 'react';
-import pluralsightImage from '../Assets/PS_logo_F-04.png';
-import android from '../Assets/skill_iqs/android.png';
-import java from '../Assets/skill_iqs/java.png';
-import angular from '../Assets/skill_iqs/angular.png';
-import cpp from '../Assets/skill_iqs/cpp.png';
-// import css from '../Assets/skill_iqs/css.png';
-// import es6 from '../Assets/skill_iqs/es6.png';
-// import html5 from '../Assets/skill_iqs/html5.png';
-import java_programming_paradigms from '../Assets/skill_iqs/java_programming_paradigms.png';
-import js from '../Assets/skill_iqs/js.png';
-import npm from '../Assets/skill_iqs/npm.png';
-import rxjs from '../Assets/skill_iqs/rxjs.png';
-import typescript from '../Assets/skill_iqs/typescript.png';
-import git from '../Assets/skill_iqs/git.png';
 
 class Projects extends Component {
     constructor(props) {
