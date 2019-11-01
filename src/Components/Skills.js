@@ -12,10 +12,10 @@ import cpp from '../Assets/skill_iqs/cpp.png';
 import java_programming_paradigms from '../Assets/skill_iqs/java_programming_paradigms.png';
 import js from '../Assets/skill_iqs/js.png';
 import npm from '../Assets/skill_iqs/npm.png';
-import rxjs from '../Assets/skill_iqs/rxjs.png';
-import typescript from '../Assets/skill_iqs/typescript.png';
+// import rxjs from '../Assets/skill_iqs/rxjs.png';
+import ts from '../Assets/skill_iqs/ts.png';
 import git from '../Assets/skill_iqs/git.png';
-
+import react from '../Assets/skill_iqs/react.png';
 
 class Skills extends Component {
     constructor(props) {
@@ -31,8 +31,8 @@ class Skills extends Component {
         ];
         this.skills2 = [
             angular,
-            rxjs,
-            typescript,
+            react,
+            ts,
             java_programming_paradigms,
             npm,
         ];
@@ -54,9 +54,13 @@ class Skills extends Component {
                     <div className="card-deck">
                         {
                             this.skills1.map((data, index) => (
-                                <div className="card">
-                                    <img src={data} className="card-img-top" alt={"image"+ index}/>
-                                </div>
+
+                                    <div className="card">
+                                        <a href={this.pluralsight}>
+                                            <img src={data} className="card-img-top" alt={"image"+ index}/>
+                                        </a>
+                                    </div>
+
                             ))
                         }
                     </div>
@@ -64,7 +68,9 @@ class Skills extends Component {
                         {
                             this.skills2.map((data, index) => (
                                 <div className="card">
-                                    <img src={data} className="card-img-top" alt={"image"+ index}/>
+                                    <a href={this.pluralsight}>
+                                        <img src={data} className="card-img-top" alt={"image"+ index}/>
+                                    </a>
                                 </div>
                             ))
                         }
