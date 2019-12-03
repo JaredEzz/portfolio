@@ -117,13 +117,13 @@
 		{
 			"name": "Get2gether",
 			"description": "My first Flutter project, focused on a clean, intuitive mobile design.",
-			"link": "https://jaredezz.github.io/touchbar/",
+			"link": "https://jaredezz.github.io/get2gether/",
 			"logo": "",
 			"frameworks": [ "Flutter" ]
 		},
 		{
 			"name": "Let's Go! Companion App",
-			"description": "I've been a Pokémon Fan for a while, so I decided to make a companion app for the latest game at the time to help players track certain in-game progress.",
+			"description": "I've been a Pokémon Fan for a while, so I made a companion app to help players track certain in-game progress.",
 			"link": "https://jaredezz.github.io/letsgo/",
 			"logo": "",
 			"frameworks": [ "Flutter Web", "Flutter" ]
@@ -131,8 +131,8 @@
 		{
 			"name": "Ripceipt",
 			"description": "",
-			"link": "https://ripceipt.github.io/",
-			"logo": "",
+			"link": "https://ripceipt.github.io/survey",
+			"logo": "../Assets/projects/ripceipt.png",
 			"frameworks": [ "Flutter", "Java" ]
 		}
 	]
