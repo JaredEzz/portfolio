@@ -19,7 +19,7 @@ class App extends Component {
       education : profileData.education,
       skills : profileData.skills,
       interests : profileData.interests,
-      awards : profileData.awards
+      projects : profileData.projects
     }
   }
   render() {
