@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import ripceipt from '../Assets/projects/ripceipt.png'
 import macbook from '../Assets/projects/macbook.jpg'
 import lets_go from '../Assets/projects/lets_go.png'
+import get2gether from '../Assets/projects/get2gether.png'
 import flutter_web from '../Assets/frameworks/hummingbird_logo.png'
 import flutter from '../Assets/frameworks/flutter.png'
 import java from '../Assets/frameworks/java.png'
@@ -13,7 +14,7 @@ class Projects extends Component {
         this.projects = props.projects;
         this.logos = [
             macbook,
-            ripceipt,
+            get2gether,
             lets_go,
             ripceipt
         ];
