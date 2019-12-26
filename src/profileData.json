@@ -109,7 +109,7 @@
 	"projects": [
 		{
 			"name": "Touchbar Information",
-			"description": "This was my first React project and focused on streamlined design.",
+			"description": "My first React project, focused on simple, streamlined web design.",
 			"link": "https://jaredezz.github.io/touchbar/",
 			"logo": "",
 			"frameworks": [ "React" ]
@@ -123,7 +123,7 @@
 		},
 		{
 			"name": "Let's Go! Companion App",
-			"description": "A companion app to help players track certain in-game progress.\n",
+			"description": "A video game companion app to help players track in-game progress.\n",
 			"link": "https://jaredezz.github.io/letsgo/",
 			"logo": "",
 			"frameworks": [ "Flutter Web", "Flutter" ]
