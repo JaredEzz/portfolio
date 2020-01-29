@@ -1,4 +1,16 @@
 import React, { Component } from 'react';
+import flutter_web from "../Assets/frameworks/hummingbird_logo.png";
+import react from "../Assets/frameworks/react.png";
+import flutter from "../Assets/frameworks/flutter.png";
+import java from "../Assets/frameworks/java.png";
+import aha from "../Assets/frameworks/aha-678x381.png"
+import excel from "../Assets/frameworks/excel.png"
+import angular from "../Assets/frameworks/AngularJS-Shield.svg"
+import gitlab from "../Assets/frameworks/gitlab-icon-rgb.png"
+import confluence from "../Assets/frameworks/confluence.png"
+import jira from "../Assets/frameworks/jira-1.svg"
+import mongo from "../Assets/frameworks/mdb.png"
+import mysql from "../Assets/frameworks/mysql.png"
 
 class Experience extends Component {
     constructor(props) {
@@ -19,6 +31,28 @@ class Experience extends Component {
                                     <h3 className="mb-0">{exp.position}</h3>
                                     <div className="subheading mb-3">{exp.organization}</div>
                                     <p>{exp.aboutWork}</p>
+                                    <div>
+                                        {
+                                            exp.tech.map((tech, index) => (
+                                                <img style = {{height: "8%", width:"8%", margin: "10px 10px 15px 0px"}} src={
+                                                    tech === "Flutter Web" ? flutter_web :
+                                                        tech === "React" ? react :
+                                                            tech === "Flutter" ? flutter :
+                                                                tech === "Java" ? java :
+                                                                tech === "Aha!" ? aha :
+                                                                tech === "Excel" ? excel :
+                                                                tech === "Angular" ? angular :
+                                                                tech === "Gitlab" ? gitlab :
+                                                                tech === "Confluence" ? confluence :
+                                                                tech === "Jira" ? jira :
+                                                                tech === "MongoDB" ? mongo :
+                                                                tech === "MySQL" ? mysql :
+
+                                                                    null
+                                                } alt={tech}/>
+                                            ))
+                                        }
+                                        </div>
                                 </div>
                                 <div className="resume-date text-md-right">
                                     <span className="text-primary">{exp.fromDate} - {exp.toDate}</span>

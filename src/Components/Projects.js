@@ -46,7 +46,7 @@ class Projects extends Component {
                                                               framework === "Flutter" ? flutter :
                                                               framework === "Java" ? java :
                                                                   null
-                                                      }/>
+                                                      } alt={framework}/>
                                                       {framework}
                                                   </li>
                                                 ))
