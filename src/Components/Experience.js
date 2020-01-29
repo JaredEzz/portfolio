@@ -39,17 +39,17 @@ class Experience extends Component {
                                                         tech === "React" ? react :
                                                             tech === "Flutter" ? flutter :
                                                                 tech === "Java" ? java :
-                                                                tech === "Aha!" ? aha :
-                                                                tech === "Excel" ? excel :
+                                                                tech === "Aha! Project Management" ? aha :
+                                                                tech === "Microsoft Excel" ? excel :
                                                                 tech === "Angular" ? angular :
-                                                                tech === "Gitlab" ? gitlab :
+                                                                tech === "GitLab" ? gitlab :
                                                                 tech === "Confluence" ? confluence :
                                                                 tech === "Jira" ? jira :
-                                                                tech === "MongoDB" ? mongo :
+                                                                tech === "mongoDB" ? mongo :
                                                                 tech === "MySQL" ? mysql :
 
                                                                     null
-                                                } alt={tech}/>
+                                                } alt={tech} title={tech}/>
                                             ))
                                         }
                                         </div>

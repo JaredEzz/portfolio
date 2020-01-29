@@ -23,9 +23,9 @@
       "tech": [
         "Java",
         "Angular",
-        "MongoDB",
+        "mongoDB",
         "MySQL",
-        "Gitlab",
+        "GitLab",
         "Jira"
       ]
     },
@@ -36,10 +36,10 @@
       "fromDate": "March 2018",
       "toDate": "January 2019",
       "tech": [
-        "Excel",
+        "Microsoft Excel",
         "Jira",
         "Confluence",
-        "Aha!"
+        "Aha! Project Management"
       ]
     },
     {
@@ -58,7 +58,7 @@
       "fromDate": "May 2015",
       "toDate": "February 2016",
       "tech": [
-        "Excel",
+        "Microsoft Excel",
         "Jira"
       ]
     }
