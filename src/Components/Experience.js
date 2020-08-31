@@ -29,7 +29,7 @@ class Experience extends Component {
                             <div key={index} className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                                 <div className="resume-content">
                                     <h3 className="mb-0">{exp.position}</h3>
-                                    <div className="subheading mb-3">{exp.organization}</div>
+                                    <div className="subheading mb-3"><a style={{color: "grey"}} href={exp.link} target={"_blank"}>{exp.organization}</a></div>
                                     <p>{exp.aboutWork}</p>
                                     <div>
                                         {
