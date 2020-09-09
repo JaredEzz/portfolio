@@ -47,7 +47,7 @@ class Skills extends Component {
                     <h2 className="mb-5">Skills</h2>
                     <div className="subheading mb-3">Programming Languages &amp; Frameworks — Measured By</div>
                     <div className="subheading mb-3">
-                       <a href={this.pluralsight}>
+                       <a href={this.pluralsight} target="_blank" rel="noopener noreferrer">
                            <img className="img-fluid" src={pluralsightImage} width={200} alt="Pluralsight Icon"/>
                        </a>
                     </div>
@@ -56,7 +56,7 @@ class Skills extends Component {
                             this.skills1.map((data, index) => (
 
                                     <div className="card">
-                                        <a href={this.pluralsight}>
+                                        <a href={this.pluralsight} target="_blank" rel="noopener noreferrer">
                                             <img src={data} className="card-img-top" alt={"image"+ index}/>
                                         </a>
                                     </div>
