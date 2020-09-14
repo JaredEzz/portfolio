@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faFacebook, faGithub, faLinkedin, faTwitter} from "@fortawesome/free-brands-svg-icons";
-import {faAngleDown} from "@fortawesome/free-solid-svg-icons";
+import {faFacebook, faGithub, faInstagram, faLinkedin, faTwitter} from "@fortawesome/free-brands-svg-icons";
+import {faAngleDown, faFileDownload} from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-scroll";
 
 class Landing extends Component {
@@ -21,17 +21,20 @@ class Landing extends Component {
                     </div>
                     <p className="lead mb-5">{this.landingData.bio1}</p>
                     <div className="social-icons">
-                        <a href={this.landingData.linkedin}>
-                            <FontAwesomeIcon icon={faLinkedin} />
+                        <a href={this.landingData.linkedin} target={"_blank"}>
+                            <FontAwesomeIcon icon={faLinkedin}/>
                         </a>
-                        <a href={this.landingData.github}>
-                            <FontAwesomeIcon icon={faGithub} />
+                        <a href={this.landingData.github} target={"_blank"}>
+                            <FontAwesomeIcon icon={faGithub}/>
                         </a>
-                        <a href={this.landingData.twitter}>
-                            <FontAwesomeIcon icon={faTwitter} />
+                        <a href={this.landingData.twitter} target={"_blank"}>
+                            <FontAwesomeIcon icon={faTwitter}/>
                         </a>
-                        <a href={this.landingData.facebook}>
-                            <FontAwesomeIcon icon={faFacebook} />
+                        <a href={this.landingData.instagram} target={"_blank"}>
+                            <FontAwesomeIcon icon={faInstagram}/>
+                        </a>
+                        <a href={this.landingData.download_resume} target={"_blank"}>
+                            <FontAwesomeIcon icon={faFileDownload}/>
                         </a>
                     </div>
                     <br/>
